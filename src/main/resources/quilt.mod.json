@@ -1,0 +1,29 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "${group}",
+		"id": "isofix",
+		"version": "${version}",
+		"metadata": {
+			"name": "Isofix",
+			"description": "Fixes isometric screenshots in Minecraft Indev 20100223.",
+			"contributors": {
+				"Toriiiiiiiiii": "Original Creator",
+				"Phantazap": "Porter"
+			},
+			"contact": {
+				"issues": "https://github.com/phantazap/isofix/issues",
+				"sources": "https://github.com/phantazap/isofix"
+			},
+			"icon": "assets/isofix/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			}
+		]
+	},
+	"mixin": "isofix.mixins.json"
+}
