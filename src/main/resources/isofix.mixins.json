@@ -1,9 +1,9 @@
 {
 	"required": true,
 	"package": "com.phantazap.isofix.mixin",
-	"compatibilityLevel": "JAVA_21",
+	"compatibilityLevel": "JAVA_8",
 	"mixins": [
-		"ExampleMixin"
+		"WorldRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
